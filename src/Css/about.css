@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'Helvetica-funy';
+    src: url(../assets/Fonts/Helvetica.ttf);
+}
+
+:root {
+    color-scheme: dark;
+    font-family: Helvetica-funy;
+    --fontsize: 1.6vw;
+    --underlinesize: 0.4vh;
+    --linkcolor: rgb(255, 215, 215);
+}
+
+a:active, a:visited {
+    text-decoration: underline rgba(0, 0, 0, 0);
+    color: var(--linkcolor);
+}
+
+a:hover {
+    text-decoration: underline rgb(from var(--linkcolor) r calc(g - 100) calc(b - 100));
+    color: rgb(from var(--linkcolor) r calc(g - 100) calc(b - 100));
+}
+
+.red, .blue, .yellow {
+    font-size: var(--fontsize);
+    display: inline-flex;
+}
+
+.red { text-decoration: underline red var(--underlinesize); }
+.blue { text-decoration: underline blue var(--underlinesize); }
+.yellow { text-decoration: underline yellow var(--underlinesize); }
+
+.section {
+    display: flex;
+    height: 50vh; /* Each section takes up half the viewport height */
+    align-items: center;
+    justify-content: space-between;
+    margin: 5vh;
+    
+}
+
+.text-content {
+    flex: 1;
+    padding: 2vh;
+    color: white;
+}
+
+p{
+    font-size: 1.2vw;
+}
+
+.reverse{
+    flex-direction: row-reverse;
+}
+
+.poza {
+    flex: 1;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#poza-0 {
+    background-image: url(../assets/Photos/P2030572.jpg);
+}
+
+#poza-1 {
+    background-image: url(../assets/Photos/League_meet-185.jpg);
+}

@@ -1,0 +1,30 @@
+body {
+    background-color: rgba(33,0,2,255);
+  /* background-color: white;*/
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.keyart {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.keyart_layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+#art-0 { background-image: url('../PeppImg/pepp0.PNG'); }
+#art-1 { background-image: url('../PeppImg/pepp1.PNG'); }
+#art-2 { background-image: url('../PeppImg/pepp2.PNG'); }
+#art-3 { background-image: url('../PeppImg/pepp3.PNG'); }
+#art-4 { background-image: url('../PeppImg/pepp4.PNG'); }
+#art-5 { background-image: url('../PeppImg/pepp5.PNG'); }
+#art-6 { background-image: url('../PeppImg/pepp6.PNG'); }

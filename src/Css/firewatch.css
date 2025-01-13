@@ -1,0 +1,32 @@
+body {
+    background-color: rgba(33,0,2,255);
+  /* background-color: white;*/
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.keyart {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.keyart_layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+#art-0 { background-image: url('../FireWatch Imgs/parallax0.png'); }
+#art-1 { background-image: url('../FireWatch Imgs/parallax1.png'); }
+#art-2 { background-image: url('../FireWatch Imgs/parallax2.png'); }
+#art-3 { background-image: url('../FireWatch Imgs/parallax3.png'); }
+#art-4 { background-image: url('../FireWatch Imgs/parallax4.png'); }
+#art-5 { background-image: url('../FireWatch Imgs/parallax5.png'); }
+#art-6 { background-image: url('../FireWatch Imgs/parallax6.png'); }
+#art-7 { background-image: url('../FireWatch Imgs/parallax7.png'); }
+#art-8 { background-image: url('../FireWatch Imgs/parallax8.png'); }

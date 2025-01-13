@@ -1,0 +1,25 @@
+.three-column-container {
+    display: flex;
+    justify-content: space-between; /* Add spacing between columns */
+    align-items: flex-start; /* Align items at the top */
+    gap: 2vw; /* Adds spacing between columns */
+    padding: 5vh; /* Optional: padding around the container */
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.column {
+    flex: 1; /* Ensure each column takes equal space */
+    text-align: center; /* Centers the text horizontally */
+    margin: 0 1vw; /* Adds margins to the columns */
+}
+
+.column h3 {
+    font-size: var(--fontsize); /* Adjust font size as needed */
+    margin-bottom: 1vh; /* Spacing below headings */
+}
+
+.column p {
+    font-size: calc(var(--fontsize) * 0.8); /* Make paragraph text smaller */
+    line-height: 1.5; /* Improve readability */
+}

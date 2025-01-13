@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.redirect-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vh;
+    border-radius: 10px; /* Rounded corners */
+    width: 80%; /* Adjust the width */
+    margin: 2vh auto; /* Center the card and add spacing */
+    background-color: #ff090927; /* Optional background color */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Optional shadow */
+}
+
+.left-section,
+.right-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-img {
+    max-width: 30vh;
+    min-width: 15vh;
+    max-height: 30vh;
+    min-height: 15vh;
+    width: 18vh;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.center-section {
+    flex: 2;
+    text-align: center;
+}
+
+.center-section h3 {
+    font-size: 2vh; /* Adjust heading size */
+    margin-bottom: 1vh;
+    text-transform: uppercase; /* Optional for styling */
+}
+
+.center-section p {
+    font-size: 1.5vh; /* Adjust text size */
+    margin-bottom: 1vh;
+    line-height: 1.5;
+}
+
+.center-section button {
+   
+    background-color: #ff6b6b; /* Button color */
+   
+}
+
+.center-section button:hover {
+    background-color: #e55a5a; /* Button hover effect */
+}
+
+.image-left{
+    background-image: url(../assets/Photos/pepps.jpg);
+}
+
+.image-right{
+    background-image: url(../assets/Photos/seagull.jpeg);
+}
