@@ -4,6 +4,7 @@ import TimelineDemo from './Achievements/TimelineDemo';
 import Team from './Home/Team';
 import RedirectCard from './Home/RedirectCard';
 import Column from './Home/Column';
+import Button from './Contact/Button';
 
 function NavBar() {
     return (
@@ -27,6 +28,7 @@ function NavBar() {
                     <RedirectCard/>
                     </>
                 } />
+                <Route path="/contact" element={<Button />} />
                 <Route path="/achievements" element={<> <TimelineDemo/> <RedirectCard/> </>} />
 
             </Routes>
