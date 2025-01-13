@@ -5,7 +5,7 @@ import centralstage from "../../assets/Photos/CentralStage.svg";
 import powerplay from "../../assets/Photos/PowerPlay.svg";
 import skystone from "../../assets/Photos/SkyStone.svg";
 import ultimategoal from "../../assets/Photos/UltimateGoal.svg";
-import frightfrenzy from "../../assets/Photos/FREIGHTFRENZY.jpg";
+import frightfrenzy from "../../assets/Photos/FREIGHTFRENZY.png";
 import intothedeep from "../../assets/Photos/IntoTheDeep.png";
 
 export function TimelineDemo() {

@@ -45,14 +45,14 @@ function Button() {
       <AnimatePresence>
         {showPopup && (
           <motion.div
-            className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center"
+            className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.3 }}
           >
             <motion.div
-              className="bg-white rounded-lg p-6 w-full max-w-md shadow-lg relative"
+              className="bg-white rounded-lg p-6 w-full max-w-md shadow-lg relative z-60"
               ref={refDiv}
               variants={popupVariants}
               initial="hidden"
