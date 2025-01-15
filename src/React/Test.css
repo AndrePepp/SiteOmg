@@ -1,0 +1,29 @@
+.animation, .animation-layer{
+    height: 1000px;
+}
+
+.animation{
+    display: block;
+    position: relative;
+    z-index: 10;
+}
+
+.animation-layer{
+    background-position: bottom center;
+    background-size: auto 1038px;
+    background-repeat: repeat-x;
+    width: 100%;
+    position: absolute;
+}
+
+.animation-layer.parallax{
+    position: fixed;
+}
+
+#pepp0 { background-image: url('../PeppImg/pepp0.png'); }
+#pepp1 { background-image: url('../PeppImg/pepp1.png'); }
+#pepp2 { background-image: url('../PeppImg/pepp2.png'); }
+#pepp3 { background-image: url('../PeppImg/pepp3.png'); }
+#pepp4 { background-image: url('../PeppImg/pepp4.png'); }
+#pepp5 { background-image: url('../PeppImg/pepp5.png'); }
+#pepp6 { background-image: url('../PeppImg/pepp6.png'); }
