@@ -11,6 +11,25 @@ module.exports = {
   darkMode: "class",
   theme: {
     extend: {},
+    theme: {
+      colors: {
+        transparent: 'transparent',
+        current: 'currentColor',
+        'white': '#ffffff',
+        'purple': '#3f3cbb',
+        'midnight': '#121063',
+        'metal': '#565584',
+        'tahiti': '#3ab7bf',
+        'silver': '#ecebff',
+        'bubble-gum': '#ff77e9',
+        'bermuda': '#78dcca',
+        'negru': '#0C0C0C',
+        'cafeniu' : '481E14',
+        'rosiatic' : '9B3922',
+        'capsuniu' : 'F2613F',
+
+      },
+    }
   },
   plugins: [
     addVariablesForColors,

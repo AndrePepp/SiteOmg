@@ -5,6 +5,7 @@ import Team from './Home/Team';
 import RedirectCard from './Home/RedirectCard';
 import Column from './Home/Column';
 import TestFirewatch from '../React/TestFirewatch';
+import Evenimente from './Evenimente/Evenimente';
 
 function NavBar() {
 
@@ -16,6 +17,7 @@ function NavBar() {
                     <div className="space-x-4">
                         <Link to="/home">Home</Link>
                         <Link to="/achievements">Achievements</Link>
+                        <Link to="/events">Events</Link>
                         {/*<Link to="/testfirewatch"> TestFirewatch</Link>*/}
                     </div>
                 </div>
@@ -32,6 +34,7 @@ function NavBar() {
                     </>
                 } />
                 <Route path="/achievements" element={<> <TimelineDemo/> <RedirectCard/> </>} />
+                <Route path="/events" element={<> <Evenimente/> <RedirectCard/> </>} />
                 {/*<Route path="/testfirewatch" element={<TestFirewatch/>} />*/}
 
             </Routes>
